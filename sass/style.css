@@ -1,3 +1,9 @@
+.icono {
+  width: 35px;
+  height: auto;
+  margin-left: 15%;
+}
+
 .imagen-logo {
   width: 100%;
   height: auto;
@@ -11,25 +17,28 @@
 .servicios {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  margin-bottom: 20px;
 }
-
-.button-35 {
-  width: 100%;
+.servicios .cartel-servicio {
+  text-align: center;
+  margin-top: 3%;
+}
+.servicios .button-35 {
+  width: 90%;
+  margin-left: 3.5%;
   align-items: center;
-  background-color: #fff;
+  background-color: #E9BAF5;
   border-radius: 10px;
   box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
   color: black;
   cursor: pointer;
   display: inline-flex;
   flex: 1 1 auto;
-  font-family: Inter, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   justify-content: center;
   line-height: 1;
-  margin: 0;
   outline: none;
   padding: 1rem 1.2rem;
   text-align: center;
@@ -43,7 +52,27 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+.servicios .button-35:hover {
+  background-color: #C29BCC;
+  opacity: 1;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.servicios .button-35:active {
+  transform: translateY(10px);
+}
+.servicios .div-info {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 8%;
+  font-family: "Montserrat", sans-serif;
+}
 
-.button-35:hover {
-  background-color: pink;
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
