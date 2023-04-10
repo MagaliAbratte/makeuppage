@@ -1,78 +1,115 @@
-.icono {
-  width: 35px;
-  height: auto;
-  margin-left: 15%;
+/* font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Lato', sans-serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.imagen-logo {
-  width: 100%;
-  height: auto;
-}
-
-.imagen {
-  width: 50%;
-  height: auto;
-}
-
-.servicios {
+/* NAVBAR */
+.container-fluid {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  border-bottom: 1px solid black;
 }
-.servicios .cartel-servicio {
+.container-fluid .titulo {
   text-align: center;
-  margin-top: 3%;
-}
-.servicios .button-35 {
-  width: 90%;
-  margin-left: 3.5%;
-  align-items: center;
-  background-color: #C2A9AE;
-  border-radius: 10px;
-  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  margin-top: 30px;
   color: black;
-  cursor: pointer;
-  display: inline-flex;
-  flex: 1 1 auto;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  justify-content: center;
-  line-height: 1;
-  outline: none;
-  padding: 1rem 1.2rem;
-  text-align: center;
   text-decoration: none;
-  transition: box-shadow 0.2s;
-  white-space: nowrap;
-  border: 0;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
-.servicios .button-35:hover {
-  background-color: #DAD1D0;
-  opacity: 1;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
-}
-.servicios .button-35:active {
-  transform: translateY(10px);
-}
-.servicios .div-info {
-  width: 80%;
-  height: auto;
+.container-fluid h2 {
   text-align: center;
-  margin-top: 15px;
-  margin-left: 8%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 
+/* HEADER */
+.header {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-align: center;
+  margin: auto;
+  font-family: 3rem;
+}
+
+/* OPCIONES */
+.opciones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+.opciones .opcion {
+  font-family: "Alegreya Sans SC", sans-serif, light;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+/* CONTACTO */
+.flex-contacto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 1%;
+}
+.flex-contacto .contacto {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-contacto .contacto img {
+  width: 70px;
+  height: auto;
+  margin: auto;
+}
+.flex-contacto .contacto a {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 2.3rem;
+  margin: auto;
+}
+.flex-contacto .contacto p {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+  margin: auto;
+}
+
+/* SERVICIOS */
+.accordion-item .accordion-header {
+  padding: 50px;
+  border-radius: 0%;
+  box-shadow: 3px 3px 5px 0px rgb(209, 205, 209);
+}
+.accordion-item .accordion-header .accordion-button {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.accordion-item .accordion-body p {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Alegreya Sans SC", sans-serif, light;
+}
+
+/* FOOTER */
 .footer {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.8rem;
   text-align: center;
   padding: 10px;
   margin-top: 20px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
