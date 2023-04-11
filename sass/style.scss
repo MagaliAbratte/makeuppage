@@ -1,13 +1,7 @@
 $fuente:  'DM Serif Display', serif;
 $subtitulo:  'Alegreya Sans SC', sans-serif;
 $texto:'Alegreya Sans SC', sans-serif, light;
-$color1: #C2A9AE;
-$color2: #DAD1D0;
 
-/* font-family: 'Alegreya Sans SC', sans-serif;
-font-family: 'DM Serif Display', serif;
-font-family: 'Lato', sans-serif;
- */
 *{
   margin: 0;
   padding: 0;
@@ -45,7 +39,6 @@ font-family: 'Lato', sans-serif;
   font-family: 3rem;
 }
 
-
 /* OPCIONES */
 .opciones{
   display: flex;
@@ -64,19 +57,17 @@ font-family: 'Lato', sans-serif;
 }
 }
 
-
 /* CONTACTO */
 .flex-contacto{
   display: flex;
   flex-direction: column;  
-  margin-top: 30px;
-  margin-left: 1%;
 
     .contacto{
       padding: 10%;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      box-shadow: 0px 2px 5px 0px rgba(199,195,199,1);
 
       img{
         width: 70px;
@@ -113,8 +104,8 @@ font-family: 'Lato', sans-serif;
       font-family: $fuente;
       font-size: 2rem;
       text-align: center;
-    }
   }
+}
   .accordion-body{
     p{
       font-size: 1.8rem;
@@ -128,10 +119,9 @@ font-family: 'Lato', sans-serif;
 /* FOOTER */
 .footer {
   font-family: $subtitulo;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
-
 }
