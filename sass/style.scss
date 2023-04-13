@@ -1,6 +1,10 @@
-$fuente:  'DM Serif Display', serif;
-$subtitulo:  'Alegreya Sans SC', sans-serif;
-$texto:'Alegreya Sans SC', sans-serif, light;
+$fuente:  'Playfair Display', serif, italic;
+$subtitulo:  'Poppins', sans-serif;
+$texto:'Poppins', sans-serif, Light;
+
+/* font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif; */
 
 *{
   margin: 0;
@@ -31,14 +35,6 @@ $texto:'Alegreya Sans SC', sans-serif, light;
   }
 }
 
-/* HEADER */
-.header{
-  font-family: $subtitulo;
-  text-align: center;
-  margin: auto;
-  font-family: 3rem;
-}
-
 /* OPCIONES */
 .opciones{
   display: flex;
@@ -49,12 +45,15 @@ $texto:'Alegreya Sans SC', sans-serif, light;
   max-width: 100%;
 
   .opcion{
-    font-family: $texto;
+    font-family: $subtitulo;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: black;
     text-align: center;
-}
+    box-shadow: 3px 3px 5px 0px rgba(209,205,209,1);
+    padding: 25px 20px 25px 20px;
+    border-radius: 10%;
+  }
 }
 
 /* CONTACTO */
@@ -79,7 +78,7 @@ $texto:'Alegreya Sans SC', sans-serif, light;
         font-family: $subtitulo;
         text-decoration: none;
         color: black;
-        font-size: 2.3rem;
+        font-size: 2rem;
         margin: auto;
       }
 
@@ -87,7 +86,7 @@ $texto:'Alegreya Sans SC', sans-serif, light;
         font-family: $subtitulo;
         text-decoration: none;
         color: black;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin: auto;
       }
     }
@@ -111,6 +110,12 @@ $texto:'Alegreya Sans SC', sans-serif, light;
       font-size: 1.8rem;
       text-align: center;
       font-family: $texto;
+    }
+
+    h3{
+      margin-top: 20px;
+      text-align: center;
+      font-size: 2rem;
     }
   }
 }
